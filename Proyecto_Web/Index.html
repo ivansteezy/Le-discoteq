@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prueba</title>
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+<body>
+    <div class="page-header" style="text-align: center">
+      <a href="Index.html" style="text-decoration: none"><h1>Le Discotec</h1></a>
+    </div>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <div class="collapse navbar-collapse" id="collapse_target">
+              <ul class="nav navbar-nav">
+
+                <li class="nav-item dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle = "dropdown">Productos</a>
+                    <ul class="dropdown-menu">
+
+                      <li><a href="HipHop.php">Hip Hop</a></li>
+                      <li><a href="Pop.php">Pop</a></li>
+                      <li><a href="Rock.php">Rock</a></li>
+                      <li><a href="Electro.php">Electro</a></li>
+                      <li><a href="Oldies.php">Oldies</a></li>
+
+                    </ul>
+               </li>
+
+                <li class="nav-item">
+                  <a href="Mapa.html" class="nav-link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a href="Login.php" class="nav-link">Login</a>
+                </li>
+                <li ><a href="Vista_Carro.php" class="nav-link">Carrito</a></li>
+              </ul>
+          </div>
+        </nav>
+
+  <!--Aqui comenzara el bloque de markups para el carousel-->
+  <div class="container">
+    <h2>Lo m&aacute;s vendido.</h2>
+        <div id="Carousel" class="carousel slide" data-ride="carousel">
+         <!-- Indicadores -->
+         <ol class="carousel-indicators">
+           <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+           <li data-target="#Carousel" data-slide-to="1"></li>
+           <li data-target="#Carousel" data-slide-to="2"></li>
+         </ol>
+
+         <!-- Slides -->
+         <div class="carousel-inner">
+           <div class="item active">
+             <img src="Imagenes/rainbows.jpg" style="width:100%;">
+             <div class="carousel-caption">
+                <h3>In Rainbows</h3>
+                <p>Radiohead</p>
+             </div>
+           </div>
+
+           <div class="item">
+             <img src="Imagenes/djshadow.jpg" style="width:100%;">
+             <div class="carousel-caption">
+                <h3>Endtroducing.....</h3>
+                <p>Dj Shadow</p>
+             </div>
+           </div>
+
+           <div class="item">
+             <img src="Imagenes/tame.jpg" style="width:100%;">
+             <div class="carousel-caption">
+                <h3>Innerspeaker</h3>
+                <p>Tame Imapala</p>
+             </div>
+           </div>
+         </div>
+
+          <!-- Left and right controls -->
+         <a class="left carousel-control" href="#Carousel" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="right carousel-control" href="#Carousel" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+           <span class="sr-only">Next</span>
+         </a>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+  </body>
+</html>

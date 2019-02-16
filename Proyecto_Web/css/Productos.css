@@ -1,0 +1,23 @@
+.Producto {
+    padding: 20px;
+    transition: transform .2s;
+    background-color: none;
+}
+
+.Producto:hover {
+     transform: scale(1.2); 
+}
+
+
+
+td{
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+th{
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+}
